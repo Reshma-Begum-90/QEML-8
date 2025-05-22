@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Parallel Suite" parallel="tests" thread-count="3">
+
+    <test name="Laptop API Test">
+        <classes>
+            <class name="runner.RunCucumberApiTest"/>
+        </classes>
+    </test>
+
+    <test name="Mobile API Test">
+        <classes>
+            <class name="runner.RunCucumberApiTest"/>
+        </classes>
+    </test>
+
+    <test name="Tablet API Test">
+        <classes>
+            <class name="runner.RunCucumberApiTest"/>
+        </classes>
+    </test>
+
+</suite>

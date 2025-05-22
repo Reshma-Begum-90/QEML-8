@@ -1,0 +1,3 @@
+org\hooks\Hooks.class
+org\runners\TestRunner.class
+org\stepDefs\SearchStepDefs.class
